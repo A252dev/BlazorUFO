@@ -1,0 +1,14 @@
+.block__wrapper{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.info__block{
+    /*border: 1px solid red;*/
+    width: 48%;
+}
+
+.subtitle{
+    margin-bottom: 5px;
+}

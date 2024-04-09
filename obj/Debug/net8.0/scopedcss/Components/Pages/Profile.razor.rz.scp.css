@@ -1,0 +1,43 @@
+.main[b-szxdn2rlt2]{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    padding: 50px 0;    
+}
+
+.profile__container[b-szxdn2rlt2]{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action__container[b-szxdn2rlt2]{
+    width: 30%;
+    /*border: 1px solid yellow;*/
+}
+
+/* .wrapper{
+    width: 65%;
+} */
+
+/* BALANCE CARD */
+
+.balance[b-szxdn2rlt2]{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.show_balance__button[b-szxdn2rlt2]{
+    color: #4d6cfa;
+    cursor: pointer;
+}
+
+
+/* ACTION CARD */
+
+/* WB (Without Background) */
+.wb[b-szxdn2rlt2]{
+    border: 1px solid #4d6cfa;
+    color: #4d6cfa;
+    background: none;
+}

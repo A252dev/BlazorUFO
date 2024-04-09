@@ -1,0 +1,16 @@
+/* USE THE ::depp parameter for the QuickGrid styles */
+
+::deep table{
+    width: 100%;
+}
+
+
+th{
+    text-align: left;
+    font-size: 24px;
+}
+
+td{
+    text-align: left;
+    font-size: 20px;
+}

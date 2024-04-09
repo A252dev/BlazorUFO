@@ -1,0 +1,116 @@
+{
+  "SerializedFilePath": "/home/agent/Documents/NewUFO/BlazorUFO/obj/Debug/net8.0.3/project.razor.json",
+  "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/BlazorUFO.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "8.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1200
+  },
+  "RootNamespace": "BlazorUFO",
+  "Documents": [
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserHistory.razor",
+      "TargetPath": "Components\\UI\\ProfilePage\\ContentUI\\UserHistory.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/Login.razor",
+      "TargetPath": "Components\\Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserTransfer.razor",
+      "TargetPath": "Components\\UI\\ProfilePage\\ContentUI\\UserTransfer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/DataProtection.razor",
+      "TargetPath": "Components\\Pages\\DataProtection.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/Footer.razor",
+      "TargetPath": "Components\\UI\\Footer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/Register.razor",
+      "TargetPath": "Components\\Pages\\Register.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserBalance.razor",
+      "TargetPath": "Components\\UI\\ProfilePage\\ContentUI\\UserBalance.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Layout/MainLayout.razor",
+      "TargetPath": "Components\\Layout\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserInfo.razor",
+      "TargetPath": "Components\\UI\\ProfilePage\\ContentUI\\UserInfo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/HomePage/Welcome.razor",
+      "TargetPath": "Components\\UI\\HomePage\\Welcome.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/Profile.razor",
+      "TargetPath": "Components\\Pages\\Profile.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/Error.razor",
+      "TargetPath": "Components\\Pages\\Error.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/UserAgreement.razor",
+      "TargetPath": "Components\\Pages\\UserAgreement.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/App.razor",
+      "TargetPath": "Components\\App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/HomePage/Info.razor",
+      "TargetPath": "Components\\UI\\HomePage\\Info.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/_Imports.razor",
+      "TargetPath": "Components\\_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/UI/Header.razor",
+      "TargetPath": "Components\\UI\\Header.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/PrivacyPolicy.razor",
+      "TargetPath": "Components\\Pages\\PrivacyPolicy.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/agent/Documents/NewUFO/BlazorUFO/Components/Pages/Home.razor",
+      "TargetPath": "Components\\Pages\\Home.razor",
+      "FileKind": "component"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

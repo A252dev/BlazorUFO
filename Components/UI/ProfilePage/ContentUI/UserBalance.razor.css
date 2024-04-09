@@ -1,0 +1,16 @@
+.block__wrapper{
+    display: flex;
+    margin-bottom: 10px;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+.info__block{
+    width: 48%;
+    /*margin-bottom: 2px;*/
+}
+
+.title{
+    font-size: 32px;
+    margin-bottom: 15px;
+}

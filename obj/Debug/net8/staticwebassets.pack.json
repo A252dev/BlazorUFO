@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/obj/Debug/net8/scopedcss/projectbundle/BlazorUFO.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorUFO.bundle.scp.css"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/assets/logo.svg",
+      "PackagePath": "staticwebassets/assets/logo.svg"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/assets/logo_white.svg",
+      "PackagePath": "staticwebassets/assets/logo_white.svg"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/assets/wc_img.svg",
+      "PackagePath": "staticwebassets/assets/wc_img.svg"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-114.png",
+      "PackagePath": "staticwebassets/favicon/favicon-114.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-120.png",
+      "PackagePath": "staticwebassets/favicon/favicon-120.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-144.png",
+      "PackagePath": "staticwebassets/favicon/favicon-144.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-152.png",
+      "PackagePath": "staticwebassets/favicon/favicon-152.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-180.png",
+      "PackagePath": "staticwebassets/favicon/favicon-180.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-192.png",
+      "PackagePath": "staticwebassets/favicon/favicon-192.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-32.png",
+      "PackagePath": "staticwebassets/favicon/favicon-32.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-36.png",
+      "PackagePath": "staticwebassets/favicon/favicon-36.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-48.png",
+      "PackagePath": "staticwebassets/favicon/favicon-48.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-57.png",
+      "PackagePath": "staticwebassets/favicon/favicon-57.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-60.png",
+      "PackagePath": "staticwebassets/favicon/favicon-60.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-72.png",
+      "PackagePath": "staticwebassets/favicon/favicon-72.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-76.png",
+      "PackagePath": "staticwebassets/favicon/favicon-76.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon-96.png",
+      "PackagePath": "staticwebassets/favicon/favicon-96.png"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/favicon/favicon.ico",
+      "PackagePath": "staticwebassets/favicon/favicon.ico"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/js/profile.js",
+      "PackagePath": "staticwebassets/js/profile.js"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/styles/docs.css",
+      "PackagePath": "staticwebassets/styles/docs.css"
+    },
+    {
+      "Id": "/home/agent/Documents/NewUFO/BlazorUFO/wwwroot/styles/profile.css",
+      "PackagePath": "staticwebassets/styles/profile.css"
+    },
+    {
+      "Id": "obj/Debug/net8/staticwebassets/msbuild.BlazorUFO.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8/staticwebassets/msbuild.build.BlazorUFO.props",
+      "PackagePath": "build\\BlazorUFO.props"
+    },
+    {
+      "Id": "obj/Debug/net8/staticwebassets/msbuild.buildMultiTargeting.BlazorUFO.props",
+      "PackagePath": "buildMultiTargeting\\BlazorUFO.props"
+    },
+    {
+      "Id": "obj/Debug/net8/staticwebassets/msbuild.buildTransitive.BlazorUFO.props",
+      "PackagePath": "buildTransitive\\BlazorUFO.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

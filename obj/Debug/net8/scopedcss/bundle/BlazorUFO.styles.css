@@ -1,0 +1,479 @@
+/* _content/BlazorUFO/Components/Layout/MainLayout.razor.rz.scp.css */
+header[b-4srtw5hxln]{
+    width: 100%;
+    /*border: 1px solid red;*/
+    padding: 16px 16px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(110, 112, 126, .15);
+    box-sizing: border-box;
+}
+
+footer[b-4srtw5hxln]{
+    width: 100%;
+}
+
+/*.page {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*main {*/
+/*    flex: 1;*/
+/*}*/
+
+/*.sidebar {*/
+/*    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);*/
+/*}*/
+
+/*.top-row {*/
+/*    background-color: #f7f7f7;*/
+/*    border-bottom: 1px solid #d6d5d5;*/
+/*    justify-content: flex-end;*/
+/*    height: 3.5rem;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*    .top-row ::deep a, .top-row ::deep .btn-link {*/
+/*        white-space: nowrap;*/
+/*        margin-left: 1.5rem;*/
+/*        text-decoration: none;*/
+/*    }*/
+
+/*    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {*/
+/*        text-decoration: underline;*/
+/*    }*/
+
+/*    .top-row ::deep a:first-child {*/
+/*        overflow: hidden;*/
+/*        text-overflow: ellipsis;*/
+/*    }*/
+
+/*@media (max-width: 640.98px) {*/
+/*    .top-row {*/
+/*        justify-content: space-between;*/
+/*    }*/
+
+/*    .top-row ::deep a, .top-row ::deep .btn-link {*/
+/*        margin-left: 0;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 641px) {*/
+/*    .page {*/
+/*        flex-direction: row;*/
+/*    }*/
+
+/*    .sidebar {*/
+/*        width: 250px;*/
+/*        height: 100vh;*/
+/*        position: sticky;*/
+/*        top: 0;*/
+/*    }*/
+
+/*    .top-row {*/
+/*        position: sticky;*/
+/*        top: 0;*/
+/*        z-index: 1;*/
+/*    }*/
+
+/*    .top-row.auth ::deep a:first-child {*/
+/*        flex: 1;*/
+/*        text-align: right;*/
+/*        width: 0;*/
+/*    }*/
+
+/*    .top-row, article {*/
+/*        padding-left: 2rem !important;*/
+/*        padding-right: 1.5rem !important;*/
+/*    }*/
+/*}*/
+
+/*#blazor-error-ui {*/
+/*    background: lightyellow;*/
+/*    bottom: 0;*/
+/*    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);*/
+/*    display: none;*/
+/*    left: 0;*/
+/*    padding: 0.6rem 1.25rem 0.7rem 1.25rem;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 1000;*/
+/*}*/
+
+/*    #blazor-error-ui .dismiss {*/
+/*        cursor: pointer;*/
+/*        position: absolute;*/
+/*        right: 0.75rem;*/
+/*        top: 0.5rem;*/
+/*    }*/
+/* _content/BlazorUFO/Components/Pages/Home.razor.rz.scp.css */
+.main[b-s8nyjicuc9]{
+    /*border: 1px solid blue;*/
+    padding: 35px 0px;
+}
+/* _content/BlazorUFO/Components/Pages/Login.razor.rz.scp.css */
+.main[b-s0nine27ks]{
+    /*border: 1px solid red;*/
+    padding: 50px 0;
+}
+
+.form[b-s0nine27ks]{
+    width: 100%;
+    max-width: 20%;
+    margin: auto;
+    padding: 22px;
+    border: 1px solid rgba(133,135,150,0.2);
+    border-radius: 6px;
+}
+
+.form__block[b-s0nine27ks]{
+    margin-bottom: 15px;
+}
+
+.title[b-s0nine27ks]{
+    margin-bottom: 8px;
+    color: #858796;
+
+}
+
+.input__subtitle[b-s0nine27ks]{
+    color: #858796;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.checkbox[b-s0nine27ks]{
+    width: 13%;
+    height: 18px;
+}
+
+.action__button[b-s0nine27ks]{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 17px;
+    background-color: #4d6cfa;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.action__button:hover[b-s0nine27ks]{
+    background-color: #1b44ff;
+}
+/* _content/BlazorUFO/Components/Pages/Profile.razor.rz.scp.css */
+.main[b-szxdn2rlt2]{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 50px 0;
+    
+}
+
+.profile__container[b-szxdn2rlt2]{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action__container[b-szxdn2rlt2]{
+    width: 30%;
+    /*border: 1px solid yellow;*/
+}
+
+/* .wrapper{
+    width: 65%;
+} */
+
+/* BALANCE CARD */
+
+.balance[b-szxdn2rlt2]{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.show_balance__button[b-szxdn2rlt2]{
+    color: #4d6cfa;
+    cursor: pointer;
+}
+
+
+/* ACTION CARD */
+
+/* WB (Without Background) */
+.wb[b-szxdn2rlt2]{
+    border: 1px solid #4d6cfa;
+    color: #4d6cfa;
+    background: none;
+}
+/* _content/BlazorUFO/Components/Pages/Register.razor.rz.scp.css */
+.main[b-gd84fmv8v6]{
+    /*border: 1px solid red;*/
+    padding: 50px 0;
+}
+
+.form[b-gd84fmv8v6]{
+    width: 100%;
+    max-width: 20%;
+    margin: auto;
+    padding: 22px;
+    border: 1px solid rgba(133,135,150,0.2);
+    border-radius: 6px;
+}
+
+.form__block[b-gd84fmv8v6]{
+    margin-bottom: 15px;
+}
+
+.title[b-gd84fmv8v6]{
+    margin-bottom: 8px;
+    color: #858796;
+    
+}
+
+.input__subtitle[b-gd84fmv8v6]{
+    color: #858796;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.checkbox[b-gd84fmv8v6]{
+    width: 13%;
+    height: 18px;
+}
+
+.action__button[b-gd84fmv8v6]{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 17px;
+    background-color: #4d6cfa;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.action__button:hover[b-gd84fmv8v6]{
+    background-color: #1b44ff;
+}
+/* _content/BlazorUFO/Components/UI/Footer.razor.rz.scp.css */
+.footer[b-hsovnomai1]{
+    
+}
+
+.main__footer[b-hsovnomai1]{
+    border-top: 1px solid #858796;
+    border-bottom: 1px solid #858796;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.info__title[b-hsovnomai1]{
+    color: #858796;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info__link[b-hsovnomai1]{
+    color: #858796;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.info__link:hover[b-hsovnomai1]{
+    text-decoration: underline;
+}
+
+.info__wrapper[b-hsovnomai1]{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__container[b-hsovnomai1]{
+    display: inherit;
+    flex-direction: column;
+}
+
+.subfooter[b-hsovnomai1]{
+    /*border: 1px solid green;*/
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.icons[b-hsovnomai1]{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.links[b-hsovnomai1]{
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer__link[b-hsovnomai1]{
+    color: #4d6cfa;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer__link:hover[b-hsovnomai1]{
+    color: #1b44ff;
+    text-decoration: underline;
+}
+
+.sub__rights[b-hsovnomai1]{
+    margin-top: 4px;
+    color: #858796;
+    font-size: 18px;
+}
+
+.slash[b-hsovnomai1]{
+    color: #858796;
+}
+/* _content/BlazorUFO/Components/UI/Header.razor.rz.scp.css */
+.header[b-mtl0z0yyei]{
+    /*border: 1px solid blue;*/
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo[b-mtl0z0yyei]{
+    width: 100px;
+    display: flex;
+}
+/* _content/BlazorUFO/Components/UI/HomePage/Info.razor.rz.scp.css */
+.info__container[b-gr0gi097ip]{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+.title[b-gr0gi097ip]{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info__wrapper[b-gr0gi097ip]{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__block[b-gr0gi097ip]{
+    /*border: 1px solid blue;*/
+    width: 33%;
+}
+
+.svg_primary[b-gr0gi097ip]{
+    fill: #4d6cfa;
+}
+
+.info__title[b-gr0gi097ip]{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.info__description[b-gr0gi097ip]{
+    color: #6e707e;
+    font-size: 20px;
+}
+/* _content/BlazorUFO/Components/UI/HomePage/Welcome.razor.rz.scp.css */
+.info__container[b-3rq5p8ka7c]{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title[b-3rq5p8ka7c]{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subtitle[b-3rq5p8ka7c]{
+    font-size: 1.4rem;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+
+.asset__image[b-3rq5p8ka7c]{
+    width: 534px;
+    height: 534px;
+}
+/* _content/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserBalance.razor.rz.scp.css */
+.block__wrapper[b-t00zzj7n1g]{
+    display: flex;
+    margin-bottom: 10px;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+.info__block[b-t00zzj7n1g]{
+    width: 48%;
+    /*margin-bottom: 2px;*/
+}
+
+.title[b-t00zzj7n1g]{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+/* _content/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserHistory.razor.rz.scp.css */
+table[b-a4ufafav6p]{
+    border: 1px solid red;
+    width: 100%;
+}
+
+th[b-a4ufafav6p]{
+    text-align: left;
+    font-size: 24px;
+}
+
+td[b-a4ufafav6p]{
+    text-align: left;
+    font-size: 20px;
+}
+/* _content/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserInfo.razor.rz.scp.css */
+.block__wrapper[b-xtc4vj5fbf]{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.info__block[b-xtc4vj5fbf]{
+    /*border: 1px solid red;*/
+    width: 48%;
+}
+
+.subtitle[b-xtc4vj5fbf]{
+    margin-bottom: 5px;
+}
+/* _content/BlazorUFO/Components/UI/ProfilePage/ContentUI/UserTransfer.razor.rz.scp.css */
+.info__block[b-n3kut8eied]{
+    width: 48%;
+    /*margin-bottom: 2px;*/
+}
+
+.title[b-n3kut8eied]{
+    font-size: 32px;
+    margin-bottom: 15px;
+}

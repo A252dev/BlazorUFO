@@ -1,0 +1,87 @@
+@page "/profile"
+@rendermode InteractiveServer
+
+<HeadContent>
+    <link rel="stylesheet" type="text/css" href="styles/profile.css" />
+</HeadContent>
+
+<PageTitle>UFOPay 2.0 - Profile</PageTitle>
+
+<div class="main">
+    <div class="profile__container">
+        <nav class="action__container">
+            <section class="wrapper">
+                <h4 class="title">UFOPay Balance</h4>
+                <p class="balance"><span class="currency">$</span>5,533.45 USD</p>
+                <p class="subtitle">Available <span class="show_balance__button" @onclick="ShowBalance" id="user_balance_button">show all balances</span></p>
+                <a class="action__button" @onclick="Transfer">Transfer Money</a>
+                <a class="action__button" @onclick="History">History</a>
+            </section>
+            <section class="wrapper">
+                <h4 class="title">Create the invoice</h4>
+                <p class="subtitle">Start an invoice in seconds.</p>
+                
+                <input class="input" type="email" placeholder="Write a user email" />
+                <input class="input" type="text" placeholder="Custom comment" />
+                
+                <a class="action__button wb">Create an invoice</a>
+            </section>
+        </nav>
+        @* CONTENT SECTIONS *@
+        <div style="@wrapperStyle">
+            @* DEFAULT IS ON *@
+            <section class="wrapper" style="@user_info" id="user_info">
+                <UserInfo />
+            </section>
+
+            <section class="wrapper" style="@user_balance" id="user_balance">
+                <UserBalance />
+            </section>
+            
+            <section class="wrapper" style="@user_transfer">
+                <UserTransfer />
+            </section>
+
+            <section class="wrapper" style="@user_history">
+                <UserHistory />
+            </section>
+        </div>            
+    </div>
+</div>
+
+@code{
+    const string wrapperStyle = "width: 65%;";
+    const string hiddenStyle = "display: none;";
+    const string showStyle = "display: block;";
+
+    string user_info = hiddenStyle;
+
+
+    string user_balance = hiddenStyle;
+    string user_transfer = hiddenStyle;
+    string user_history = "";
+
+    private void ShowBalance(){
+        user_info = hiddenStyle;
+        user_transfer = hiddenStyle;
+        user_history = hiddenStyle;
+
+        user_balance = showStyle;
+    }
+
+    private void Transfer(){
+        user_balance = hiddenStyle;
+        user_info = hiddenStyle;
+        user_history = hiddenStyle;
+
+        user_transfer = showStyle;
+    }
+
+    private void History(){
+        user_balance = hiddenStyle;
+        user_info = hiddenStyle;
+        user_transfer = hiddenStyle;
+
+        user_history = showStyle;
+    }
+}

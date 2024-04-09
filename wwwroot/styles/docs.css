@@ -1,0 +1,35 @@
+.main{
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.page__title{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin: 20px 0;
+    color: #3a3b45;
+    opacity: 0.7;
+}
+
+.description{
+    margin-bottom: 20px;
+    color: #3a3b45;
+    opacity: 0.9;
+}
+
+.cloudflare__link {
+    color: #4d6cfa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cloudflare__link:hover {
+    color: #1b44ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
